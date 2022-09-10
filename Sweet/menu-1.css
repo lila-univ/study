@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Lobster&display=swap');
+
+*{
+    font-family: "Edu NSW ACT Foundation", sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    transition: all 1s ease;
+}
+
+:root {
+  --blue: linear-gradient(#56eba1, #72d8e6);
+  --paleblue: rgb(97, 225, 242);
+  --navy: rgb(22, 39, 67);
+  --pink: rgb(251, 152, 175);
+  --palepink: rgb(246, 193, 205);
+  --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+html {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+    
+    /* Header */
+    
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    z-index: 5;
+    background: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+    
+header .logo{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--navy);
+    font-weight: lighter;
+}
+
+header .navbar a{
+    margin: auto 2rem;
+    padding:.5rem 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    color:var(--navy);
+}
+    
+header .navbar a:nth-child(odd):hover{
+    color:whitesmoke;
+    background: var(--blue);
+}
+
+header .navbar a:nth-child(even):hover{
+    color:whitesmoke;
+    background: var(--pink);
+}
+
+header .icons .icon img {
+    cursor: pointer;
+    height: 30px;
+    border-radius: 50%;
+}
+
+header .icons {
+  display: none;
+}
+
+/*body*/
+
+.bigbox {
+    padding-bottom: 5rem;
+    min-height: 100%;
+}
+
+.back {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title, .description {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    z-index: 10;
+}
+
+.title {
+    margin-top: 10rem;
+}
+
+.description {
+    margin-bottom: 5rem;
+}
+
+.menu-1 {
+    margin: 15rem auto;
+    width: 90%;
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: whitesmoke;
+}
+
+.top-container {
+    width: 45%;
+}
+
+.menu-1 .top-container .image-box {
+    position: relative;
+    margin: 5rem auto;
+    height: 490px;
+    overflow: hidden;
+}
+
+.menu-1 .top-container .image-box .cakebox {
+    width: 90%;
+    margin: auto;
+}
+
+.menu-1 .top-container .image-box .cakebox .picture {
+    width: 100%;
+}
+
+.menu-1 .top-container .ingredients-box {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.menu-1 .top-container .ingredients-box .sentence,
+.ingredients-box .ingredients,
+.ingredients-box .ingredients .ing {
+    list-style: none;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: 1px solid silver;
+    text-shadow: 3px 3px 0 rgb(248, 231, 136);
+}
+
+.container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+/* accordion */
+
+  .accordion-box {
+    margin: 2rem 0 6rem 0;
+  }
+
+  .name-and-desc {
+    margin-top: 10rem;
+  }
+
+  .name {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .desc {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .accordion {
+    width: 90%;
+    margin: 5rem auto;
+  }
+  
+  .menu {
+    color: var(--navy);
+    font-size: 3rem;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid silver;
+    text-shadow: 3px 3px 0 rgb(248, 231, 136);
+  }
+
+  .menu:hover,
+  .menu:active,
+  .menu.is-active {
+    color: var(--navy);
+    border-bottom: 1px solid silver;
+    text-shadow: 3px 3px 0 rgb(248, 231, 136);
+  }
+
+  .contents {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition-duration: 1s;
+    border-bottom: 1px solid silver;
+    text-shadow: 3px 3px 0 rgb(248, 231, 136);
+  }
+  
+  .contents.is-open {
+    padding: 10px;
+    line-height: normal;
+    height: auto;
+    opacity: 1;
+  }
+
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: silver;
+  }
+
+  /* footer starts 
+
+  footer {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(159, 159, 159, 0.3);
+    border-top: .5px solid var(--navy);
+  }
+
+  footer p {
+    margin: 1.1rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--navy);
+    text-shadow: 2px 2px 2px #fff;
+  }*/
+
+
+@media (max-width:1300px) {
+  }
+
+@media (max-width:900px){
+
+  header .icons {
+      display: inline-block;
+  }
+
+  header .navbar{
+      position: absolute;
+      top:100%; left:0; right:0;
+      background: whitesmoke;
+      border-top: .1rem solid rgba(0,0,0,.2);
+      border-bottom: .1rem solid rgba(0,0,0,.2);
+      padding:1rem;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .navbar.active{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  header .a {
+    font-size: 2.5rem;
+  }
+
+  header .navbar a{
+      display: block;
+      padding: 1.5rem;
+      margin: 1rem;
+      font-size: 2.5rem;
+      background: whitesmoke;
+  }
+
+  html{
+    font-size: 65%;
+  }
+  
+  header{
+    padding: 2rem 4rem;
+  }
+
+}
+
+@media (max-width:450px) {
+
+html{
+  font-size: 60%;
+}
+
+header .navbar a{
+  font-size: 2rem;
+}
+
+.heading {
+  font-size: 6rem;
+}
+
+}
