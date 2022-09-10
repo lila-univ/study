@@ -14,10 +14,35 @@
     <header>
         <a href="#" class="logo">Goldren Recipes</a>
         <nav class="navbar">
-            <a href="#swimper">Top</a>
+          <script>
+            nav_links = [
+            {
+              title: `Top`,
+              link: `#swimper`,
+            },
+            {
+              title: `About us`,
+              link: `#about`,
+            },
+            {
+              title: `Recipes`,
+              link: `#recipes`,
+            },
+            {
+              title: `Contact us`,
+              link: `#contact`,
+            },
+            ];
+            for(i=0 ; i<nav_links.length ; i++) {
+              document.currentScript.parentNode.appendChild(a = document.createElement('a'));
+              a.textContent = nav_links[i].title;
+              a.href = nav_links[i].link;
+            }
+          </script>
+            <!-- <a href="#swimper">Top</a>
             <a href="#about">About us</a>
             <a href="#recipes">Recipes</a>
-            <a href="#contact">Contact us</a>
+            <a href="#contact">Contact us</a> -->
         </nav>
         <!--　スマホ用　ハンバーガーメニュー風　-->
         <div class="icons" id="icons">
@@ -175,6 +200,16 @@
     <p>---------------------</p>
     <p>---------------------</p>
     <p>---------------------</p>
+    <script>
+      for(i=0 ; i<nav_links.length ; i++) {
+        document.currentScript.parentNode.appendChild(a = document.createElement('a'));
+        a.textContent = nav_links[i].title;
+        a.href = nav_links[i].link;
+        a.style.display = 'block';
+        a.style.fontSize = '20px';
+        a.style.marginBottom = '20px';
+      }
+    </script>
   </footer>
 
 
