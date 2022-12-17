@@ -63,6 +63,11 @@ git add . && git commit -m'Add Tweet model and Worked!!' && git push
 git pull origin main
 ```
 
+```
+rails db:reset
+```
+
+
 
 
 
