@@ -43,6 +43,9 @@ rails s
 rails db:migrate
 ```
 
+```
+git add remote origin [SSH]
+```
 
 
 
