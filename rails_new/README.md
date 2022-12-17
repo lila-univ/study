@@ -5,7 +5,7 @@
    - [x] ruby: 
    - [x] Rails: 
 1. Railsアプリの作成
-   - tweetで遊んでみる
+   - [x] tweetで遊んでみる
 3. LiLAアプリのLocal起動
    - [ ] Clone From Github
    - [ ] rails s
