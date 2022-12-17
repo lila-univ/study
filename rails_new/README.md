@@ -31,6 +31,8 @@ rails s
 rails new sample_chikura_ino
 ```
 
+[http://localhost:3000/](http://localhost:3000/)
+
 
 
 
