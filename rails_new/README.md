@@ -5,13 +5,14 @@
    - [x] ruby: 
    - [x] Rails: 
 1. Railsアプリの作成
-1. LiLAアプリのLocal起動
+   - tweetで遊んでみる
+3. LiLAアプリのLocal起動
    - [ ] Clone From Github
    - [ ] rails s
-1. Githubへのアップロード
+4. Githubへのアップロード
    - [ ] via=>権限付与
    - [ ] add, commit, push
-1. Githubコミュニケーション
+5. Githubコミュニケーション
    - [ ] PRの発行
 
 ---
