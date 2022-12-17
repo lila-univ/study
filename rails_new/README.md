@@ -27,6 +27,10 @@ rails _7.0.4_ new sample_chikura -d postgresql --skip-turbolinks
 rails s
 ```
 
+```
+rails sample_chikura_ino
+```
+
 
 
 
