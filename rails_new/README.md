@@ -5,8 +5,6 @@
    - [x] ruby: 
    - [x] Rails: 
 1. Railsアプリの作成
-   - [x] rails new
-   - [x] rails s -postgresql
 1. LiLAアプリのLocal起動
    - [ ] Clone From Github
    - [ ] rails s
@@ -35,6 +33,15 @@ rails new sample_chikura_ino
 ```
 rails g scaffold tweet title:string
 ```
+
+```
+rails s
+```
+
+```
+rails db:migrate
+```
+
 
 
 
