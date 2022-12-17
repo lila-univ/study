@@ -51,6 +51,10 @@ git remote -v
 git remote add origin [SSH]
 ```
 
+```
+git add . && git commit -m'Add Tweet model and Worked!!' && git push
+```
+
 
 
 
