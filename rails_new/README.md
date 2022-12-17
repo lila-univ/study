@@ -28,7 +28,7 @@ rails s
 ```
 
 ```
-rails sample_chikura_ino
+rails new sample_chikura_ino
 ```
 
 
