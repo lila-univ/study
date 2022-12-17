@@ -16,3 +16,14 @@
    - [ ] add, commit, push
 1. Githubコミュニケーション
    - [ ] PRの発行
+
+---
+
+```
+rails _7.0.4_ new sample_chikura -d postgresql --skip-turbolinks
+```
+
+
+
+```
+```
